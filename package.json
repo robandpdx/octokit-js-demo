@@ -1,0 +1,30 @@
+{
+  "name": "octokit-js-demo",
+  "version": "1.0.0",
+  "description": "Demo of octokit.js",
+  "main": "script.js",
+  "scripts": {
+    "it": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robandpdx/octokit-js-demo.git"
+  },
+  "keywords": [
+    "octokit",
+    "js",
+    "api"
+  ],
+  "author": "Rob Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robandpdx/octokit-js-demo/issues"
+  },
+  "homepage": "https://github.com/robandpdx/octokit-js-demo#readme",
+  "dependencies": {
+    "@octokit/rest": "^19.0.5",
+    "dotenv": "^16.0.3",
+    "octokit": "^2.0.10"
+  }
+}
